@@ -1,0 +1,45 @@
+.navbar {
+    font-family: var(--fonte-principal);
+    padding: 1rem 2rem;
+}
+.navbar__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar__lista {
+    display: flex;
+    list-style: none;
+    padding: 0 20em 0 3em;
+}
+
+.navbar__lista__item__link {
+    text-decoration: none;
+    padding: 0 3em;
+    color: var(--cor-subtitulo);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar__login {
+    text-decoration: none;
+    padding: 0 2em;
+    color: var(--cor-subtitulo);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar__cadastrar {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--cor-cadastrar);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 16px;
+}

@@ -1,0 +1,35 @@
+.metricas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 7rem 2rem;
+}
+
+.metricas__lista {
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.metricas__resultados h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-cadastrar);
+    margin: 0.5em 0;
+}
+
+.metricas__titulos h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-diferentes);
+    margin: 0.5em 0;
+}
+
+.metricas__subtitulos p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-subtitulo);
+}
+
+.metricas__primeira, .metricas__segunda, .metricas__terceira, .metricas__quarta  {
+    width: 15%;
+}

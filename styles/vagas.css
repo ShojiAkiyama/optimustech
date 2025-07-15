@@ -1,0 +1,77 @@
+.vagas {
+    padding: 5em 10em;
+}
+.vagas__propaganda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas__propaganda h3{
+    font-size: 14px;
+    color: var(--cor-cadastrar);
+    background-color: hsl(0, 60%, 98%);
+    padding: 0.5em;
+    border-radius: 1em;
+    font-weight: 500;
+} 
+
+.vagas__propaganda h1{
+    padding: 0.8em;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-diferentes);
+}
+
+.vagas__propaganda span{
+    color: var(--cor-subtitulo);
+    margin-bottom: 4em;
+}
+
+.vagas__reuniao {
+   width: 100%;
+}
+
+.vagas__categoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 2em 12em 0 12em;
+}
+
+.vagas__categoria span{
+    padding: 1em 0 1.5em 0; 
+    font-weight: 500;
+    color:  var(--cor-diferentes);
+}
+
+.vagas__titulo {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding: 1em 0;
+    border: 1px solid  black;
+    border-radius: 1em;
+    border-color: var(--cor-borda);
+    margin-bottom: 1.5em;
+}
+
+.vagas__titulo span{
+    padding: 1em;
+    font-size: 18px;
+    color: var(--cor-diferentes);
+    font-weight: 500;
+}    
+.vagas__informacoes {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 0;
+}
+.vagas__informacoes span{
+    margin: 0 1.5em 0 0;
+    color: var(--cor-subtitulo);
+    font-weight: 500;
+    
+}

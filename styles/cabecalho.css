@@ -1,0 +1,32 @@
+.cabecalho {
+    display: block;
+    justify-content: center;
+    width: 100%;   
+    margin-top: 8em;
+}
+.cabecalho__lista {
+    display: block;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.cabecalho__sobre__nos h3{
+    font-size: 16px;
+    color: var(--cor-cadastrar);
+    margin: 0;
+}
+
+.cabecalho__diferentes h1{
+    font-size: 48px;
+    color: var(--cor-diferentes);
+    font-weight: 600;
+    margin: 0;
+    padding: 0.5em;
+}
+
+.cabecalho__detalhes p{
+    color: var(--cor-detalhes);
+    margin: 0em 28em;
+    font-weight: 400;
+}

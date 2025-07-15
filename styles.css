@@ -1,0 +1,36 @@
+@import url("styles/navbar.css");
+@import url("styles/cabecalho.css");
+@import url("styles/metricas.css");
+@import url("styles/vagas.css");
+@import url("styles/comentarios.css");
+@import url("styles/rodape.css");
+
+:root {
+    --fonte-principal: "Inter";
+    --cor-titulo: #3A404E;
+    --cor-subtitulo: #667085;
+    --cor-cadastrar: #8E2424;
+    --branco: #ffffff;
+    --cor-cartão: #f3bbbb;
+    --cinza: #F9FAFB;
+    --cor-diferentes: #101828;
+    --cor-borda: #EAECF0;
+    --cor-fundo: hsl(0, 60%, 98%);
+    --cor-rodape: #F9FAFB;
+    --cor-copyright: #98A2B3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 100vh;
+}
